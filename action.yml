@@ -1,6 +1,6 @@
-name: 'Setup Redis'
+name: 'Setup Redis from RedBeardLab'
 description: 'Setup Redis database'
-author: 'Zhulik'
+author: 'Zhulik & siscia'
 branding:
   icon: 'database'
   color: 'red'
