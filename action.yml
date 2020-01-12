@@ -13,6 +13,10 @@ inputs:
     description: 'Number of Redis databases'
     required: false
     default: 16
+  server argumentes:
+    description: 'Arguments to pass as input to redis-server'
+    required: false
+    default: ""
 runs:
   using: 'docker'
   image: 'Dockerfile'
