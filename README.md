@@ -11,10 +11,11 @@ See [action.yml](action.yml)
 Basic:
 ```yaml
 steps:
-- uses: zhulik/redis-action@1.1.0
+- uses: RedBeardLab/redis-action@1.2.2
   with:
     redis version: '5'
     number of databases: 100
+    server arguments: '--loadmodule redisql.so'
 ```
 
 # License
